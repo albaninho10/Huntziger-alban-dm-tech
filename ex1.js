@@ -8,5 +8,16 @@ function reverseString(string) {
     console.log(newString)
     return newString;
 }
+
+function reverseStringTwo(str) {
+    var result = "";
+    for (var i = str.length - 1; i >= 0; i--) { 
+        result += str[i];
+    }
+    console.log(result)
+    return result;
+}
  
-reverseString("bonjour");
+reverseStringTwo("Hello c'est Alban");
+ 
+//reverseString("Bonjour");
