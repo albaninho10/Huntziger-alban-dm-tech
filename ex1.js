@@ -1,6 +1,7 @@
 //Écrivez un algorithme JavaScript pour inverser une chaîne de
 //caractères.
 
+//function with JS function
 function reverseString(string) {
     var splitString = string.split("");
     var reverseString = splitString.reverse(); 
@@ -9,6 +10,7 @@ function reverseString(string) {
     return newString;
 }
 
+//function with loop
 function reverseStringTwo(str) {
     var result = "";
     for (var i = str.length - 1; i >= 0; i--) { 
@@ -17,7 +19,7 @@ function reverseStringTwo(str) {
     console.log(result)
     return result;
 }
- 
+
+reverseString("Bonjour");
 reverseStringTwo("Hello c'est Alban");
  
-//reverseString("Bonjour");
